@@ -17,7 +17,14 @@ int binaryS(int arr[], int l, int r, int x)
   
 int main() 
 { 
-    int arr[] = { 56,85,2,1,0,36}; 
+    int arr[];
+    int si;
+    cout<<"Enter size of array";
+    cin>>si;
+    cout<<"enter value"
+     for(int i=0;i<si;i++){
+      cin>>arr[i];
+     }
     int x = 10; 
     int n = sizeof(arr) / sizeof(arr[0]); 
     int result = binaryS(arr, 0, n - 1, x); 
